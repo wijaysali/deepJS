@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Belajar Function Reduce Javascript</title>
+	</head>
+	<body>
+	
+		<script>
+               var bali = [
+                  { regency:'Jembrana', population:114863 },
+                  { regency:'Tabanan', population:209308 },
+                  { regency:'Badung', population:277536 },
+                  { regency:'Gianyar', population:208443 },
+                  { regency:'Klungkung', population:79233 },
+                  { regency:'Bangli', population:106166 },
+                  { regency:'Karangasem', population:193787 },
+                  { regency:'Buleleng', population:294418 },
+                  { regency:'Denpasar', population:403292 }
+                ];
+
+                var sum = bali.reduce(function(val, element){
+                  return val + element.population;
+                }, 1);
+
+                console.log(sum)
+
+		</script>
+	
+	</body>
+</html>

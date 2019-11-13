@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Belajar Arrow Function</title>
+	</head>
+	<body>
+	
+		<script>
+                 //case1 (Banyak Params)
+                 // const multiES5 = function(x,y){
+                 // 	return x * y;
+                 // };
+                 // console.log(multiES5 (2,3));
+
+                 // const multiES5 = (x,y) => {return x*y};
+                 // console.log(multiES5 (2,3));
+
+                 // const multiES5 = (x,y,z) => x*y+z;
+                 // console.log(multiES5 (2,3,6));
+
+                 // case 2 ( satu params )
+                 // let phraseSplitterEs6 = phrase => phrase.split("");
+                 // console.log(phraseSplitterEs6 ("ES6 Awesomeness"));
+
+                 //case 3 ( tanpa params )
+                 // let docLogEs6 = () => {console.log(document);};
+                 // docLogEs6();
+
+                 //case 4 ( sintaks return object )
+                 // let setNameIdsEs6 = function setNameIds(id, name)
+                 // {
+                 // 	return {
+                 // 		id: id,
+                 // 		name: name
+                 // 	};
+                 // };
+
+                 let setNameIdsEs6 = (id, name) => ({ id:id, name:name});
+                 console.log(setNameIdsEs6(1, "Taufiq"));
+
+		</script>
+	
+	</body>
+</html>
+
